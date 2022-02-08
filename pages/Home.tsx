@@ -245,7 +245,13 @@ const styles = StyleSheet.create({
     paddingVertical: 10,
     margin: 5,
     marginTop: 10,
-    borderRadius: 20
+    borderRadius: 20,
+    shadowColor: 'black',
+    shadowOffset: {
+      height: 4,
+      width: 1
+    },
+    shadowOpacity: .1
   },
   sectionEmphasis: {
     backgroundColor: '#d88d13',
@@ -253,7 +259,13 @@ const styles = StyleSheet.create({
     paddingVertical: 10,
     margin: 5,
     marginTop: 10,
-    borderRadius: 10
+    borderRadius: 10,
+    shadowColor: 'black',
+    shadowOffset: {
+      height: 4,
+      width: 1
+    },
+    shadowOpacity: .5,
   },
   inputContainer: {
   },
